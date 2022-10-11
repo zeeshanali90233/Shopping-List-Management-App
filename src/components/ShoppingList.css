@@ -1,0 +1,32 @@
+.ShoppingList-container{
+    width: 40%;
+    background-color: bisque;
+}
+
+input[type="checkbox"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+  }
+
+
+  .item-count{
+    align-items: center;
+    margin-left: auto;
+  }
+
+.item-count button{
+   border-radius: 50%;
+
+}
+
+.disable{
+    text-decoration: line-through;
+}
+.totalItemQuantity{
+    justify-content: space-between;
+}
+
+.item-container{
+    border-bottom: 1px solid black;
+}
